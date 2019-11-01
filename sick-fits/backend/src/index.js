@@ -3,8 +3,8 @@ const createServer = require('./createServer');
 
 const server = createServer();
 
-// TODO: Create middleware to handle cookies (JWT)
-// TODO: Create middleware to populate current user
+// TODO: Use express middleware to handle cookies (JWT)
+// TODO: Use express middleware to populate current user
 
 server.start(
   {
